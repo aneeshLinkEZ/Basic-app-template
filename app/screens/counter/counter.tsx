@@ -13,7 +13,7 @@ function Counter ({navigation}){
     const increase=()=>{
         let num = number+1
         dispatch(setIncrement(num))
-    }
+        }
 
     const decrease=()=>{
         let num = number-1
